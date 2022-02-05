@@ -1,0 +1,187 @@
+h1 {
+    color: lightblue;
+}
+#time {
+    color:lightblue;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Lucida Console"
+}
+#myCanvas {
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 999;
+}
+body {
+    /*background-color: BLACK;*/
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 999;
+}
+h1 {
+     text-align: center;
+}
+.button {                                                                                                                /* inspired by w3schools.com */
+    /*background-color: red;*/
+    /*position: relative;*/
+    /*-webkit-animation-name: example; !* Safari 4.0 - 8.0 *!*/
+    /*-webkit-animation-duration: 4s; !* Safari 4.0 - 8.0 *!*/
+    /*-webkit-animation-iteration-count: 3; !* Safari 4.0 - 8.0 *!*/
+    /*animation-name: example;*/
+    /*animation-duration: 4s;*/
+    /*animation-iteration-count: 999;*/
+
+}
+@keyframes example {
+    0%   {background-color: #000000;}
+    25%  {background-color: #0a0a0a;}
+    50%  {background-color: #0f0f0f;}
+    75%  {background-color: #0a0a0a;}
+    100% {background-color: #000000;}
+}
+
+#B1 {
+    background-color: #20489b;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    width: 18%;
+    outline:none;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px #1e3c77;
+}
+#B1:hover{
+    background-color: blue;
+    color:lightblue;
+}
+#B1:focus{
+    background-color: #000000;
+    color:black;
+    box-shadow: 0 4px black;
+    transform: translateY(4px);
+}
+#B2 {
+    background-color: #5771ff;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    width: 18%;
+    outline:none;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px #4156ad;
+}
+#B2:hover{
+    background-color: blue;
+    color:lightblue;
+}
+#B2:focus{
+    background-color: #000000;
+    color:black;
+    box-shadow: 0 4px black;
+    transform: translateY(4px);
+}
+#G1 {
+    background-color: #8ac5ff;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    width: 18%;
+    outline:none;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px #486b8f;
+}
+#G1:hover{
+    background-color: blue;
+    color:lightblue;
+}
+#G1:focus{
+    background-color: #000000;
+    color:black;
+    box-shadow: 0 4px black;
+    transform: translateY(4px);
+}
+#M1 {
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 18%;
+    outline:none;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px #000000;
+}
+#M1:hover{
+    background-color: blue;
+    color:lightblue;
+}
+#M1:focus{
+    background-color: #000000;
+    color:black;
+    box-shadow: 0 4px black;
+    transform: translateY(4px);
+}
+#M2 {
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 18%;
+    outline:none;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px black;
+}
+#M2:hover{
+    background-color: blue;
+    color:lightblue;
+}
+#M2:focus{
+    background-color: #000000;
+    color:black;
+    box-shadow: 0 4px black;
+    transform: translateY(4px);
+}
